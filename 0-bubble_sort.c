@@ -13,19 +13,19 @@ void bubble_sort(int *array, size_t size)
 	int temp = 0;
 
 	/*check for empty array and return*/
-	if (array == NULL || size == 0)
+	if (size < 2)
 		return;
 	/*loop throught array*/
-	for (; x < size - 1; x++)
+	for (; x < size; x++)
 	{
 		/*compare and shuffle values*/
 		for (y = 0; y < size - x - 1; y++)
 		{
 			if (array[x] > array[y + 1])
 			{
-				temp = array[y + 1];
-				array[y + 1] = array[y];
-				array[y] = temp;
+				temp = array[y];
+				array[y] = array[y + 1];
+				array[y + 1] = temp;
 				print_array(array, size);
 			}
 		}
