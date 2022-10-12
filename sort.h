@@ -38,6 +38,7 @@ void merge_recurs(int *arr, int *array, size_t left, size_t right);
 void merge_subarray(int *arr, int *array, size_t left,
 		size_t middle, size_t right);
 void heap_sort(int *array, size_t size);
+void heap_tree(int *array, size_t s, size_t root, size_t size);
 void radix_sort(int *array, size_t size);
 void count_sort(int *array, size_t size, size_t lsd);
 void bitonic_sort(int *array, size_t size);
