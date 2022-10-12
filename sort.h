@@ -35,7 +35,8 @@ void switch_nodes(listint_t **list, listint_t **p);
 void counting_sort(int *array, size_t size);
 void merge_sort(int *array, size_t size);
 void merge_recurs(int *arr, int *array, size_t left, size_t right);
-void merge_subarray(int *arr, int *array, size_t left, size_t middle, size_t right);
+void merge_subarray(int *arr, int *array, size_t left,
+		size_t middle, size_t right);
 void heap_sort(int *array, size_t size);
 void radix_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
