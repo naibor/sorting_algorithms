@@ -39,6 +39,7 @@ void merge_subarray(int *arr, int *array, size_t left,
 		size_t middle, size_t right);
 void heap_sort(int *array, size_t size);
 void radix_sort(int *array, size_t size);
+void count_sort(int *array, size_t size, size_t lsd);
 void bitonic_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
 
